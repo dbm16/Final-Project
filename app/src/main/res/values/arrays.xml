@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="genres_array">
+            <item>אקשן</item>
+            <item>הרפתקאות</item>
+            <item>ספורט</item>
+            <item>אסטרטגיה</item>
+        </string-array>
+
+        <string-array name="years_array">
+            <item>2023</item>
+            <item>2022</item>
+            <item>2021</item>
+            <item>2020</item>
+        </string-array>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/home_Fragment">
+
+    <fragment
+        android:id="@+id/home_Fragment"
+        android:name="com.dbm.finalproject.fragments.Home_Fragment"
+        android:label="fragment_home_"
+        tools:layout="@layout/fragment_home_" >
+        <action
+            android:id="@+id/action_home_Fragment_to_searchFragment3"
+            app:destination="@id/searchFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment3"
+        android:name="com.dbm.finalproject.fragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/game_Profile"
+        android:name="com.dbm.finalproject.Game_Profile"
+        android:label="fragment_game__profile"
+        tools:layout="@layout/fragment_game__profile" />
+</navigation>

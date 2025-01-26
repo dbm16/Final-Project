@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#29282d"
+    android:orientation="vertical"
+    tools:context=".fragments.SearchFragment"
+    android:padding="16dp">
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/card"
+        android:contentDescription="חזור"
+        android:src="@drawable/arrow"
+        android:layout_marginBottom="25dp" />
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="חפש משחקים לפי שם, ז'אנר, חברה..."
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
+        android:textColorHint="#fff"
+        android:fontFamily="@font/reg"
+        android:drawableRight="@android:drawable/ic_menu_search"
+        android:textColor="#fff"
+        android:background="@drawable/search_card"
+        android:inputType="text"
+        android:textSize="16sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_results_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

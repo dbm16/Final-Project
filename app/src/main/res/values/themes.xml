@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.FinalProject" parent="Theme.AppCompat.DayNight.NoActionBar" />
+
+    <style name="BottomNavigationViewTextStyle">
+        ...
+        <item name="android:fontFamily">@font/reg</item>
+        <item name="android:textSize">13dp</item>
+        ...
+    </style>
+
+</resources>

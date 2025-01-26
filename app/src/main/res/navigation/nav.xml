@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/signUp_Fragment2">
+    <fragment
+        android:id="@+id/signUp_Fragment2"
+        android:name="com.dbm.finalproject.fragments.onboarding.SignUp_Fragment"
+        android:label="onboarding_signup"
+        tools:layout="@layout/onboarding_signup" >
+        <action
+            android:id="@+id/action_signUp_Fragment2_to_personal_Details_Fragment"
+            app:destination="@id/personal_Details_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sign_In_Fragment"
+        android:name="com.dbm.finalproject.fragments.onboarding.Sign_In_Fragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/personal_Details_Fragment"
+        android:name="com.dbm.finalproject.fragments.onboarding.Personal_Details_Fragment"
+        android:label="onboarding_personal_details"
+        tools:layout="@layout/onboarding_personal_details" />
+</navigation>
